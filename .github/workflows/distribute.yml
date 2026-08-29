@@ -83,6 +83,11 @@ jobs:
 
       - name: Export Xcode Project
         run: |
+          set -eux
+          pwd
+          ls -l project.godot export_presets.cfg
+          test -f project.godot
+          test -f export_presets.cfg
           mkdir -p build/ios
           godot --headless --import
           godot --headless --export-release "iOS" build/ios/RondaPatrol.xcodeproj

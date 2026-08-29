@@ -18,9 +18,18 @@ The App Store Connect consumable products are:
 
 ## Local export
 
-Install Godot 4.6 with the iOS export templates, then export the `iOS` preset
-to `build/ios/RondaPatrol.xcodeproj`. The Unity Ads native bridge and its
-framework are built by `ios/plugins/unity-ads/build.sh` on macOS.
+Install Godot 4.6 with the iOS export templates, then run the export from the
+project root so that `project.godot` and `export_presets.cfg` are both available
+to Godot. The command is:
+
+```bash
+cd /path/to/RondaPatrolIos
+godot --headless --import
+godot --headless --export-release "iOS" build/ios/RondaPatrol.xcodeproj
+```
+
+The Unity Ads native bridge and its framework are built by
+`ios/plugins/unity-ads/build.sh` on macOS.
 
 ## TestFlight delivery
 
