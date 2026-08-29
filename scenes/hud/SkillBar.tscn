@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dmkwae8coskwo"]
+
+[ext_resource type="Script" uid="uid://buks0bwh13iv" path="res://scenes/hud/SkillBar.gd" id="1_0s2n1"]
+
+[node name="SkillBar" type="Node2D" unique_id=523933990]
+script = ExtResource("1_0s2n1")

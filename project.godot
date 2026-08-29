@@ -1,0 +1,84 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Ronda Patrol"
+run/main_scene="res://scenes/menu/BootSplash.tscn"
+config/quit_on_go_back=false
+config/features=PackedStringArray("4.6")
+boot_splash/bg_color=Color(0, 0, 0, 1)
+boot_splash/show_image=false
+boot_splash/image="res://assets/dgs_boot_screen.png"
+config/icon="res://assets/ronda_patrol_icon_512.png"
+boot_splash/show_engine_logo=false
+boot_splash/scale="cover"
+
+[autoload]
+
+SaveManager="*res://autoload/SaveManager.gd"
+SceneManager="*res://autoload/SceneManager.gd"
+MusicManager="*res://autoload/MusicManager.gd"
+TranslationManager="*res://autoload/TranslationManager.gd"
+IAPConfig="*res://autoload/IAPConfig.gd"
+IAPManager="*res://autoload/IAPManager.gd"
+AdsManager="*res://autoload/AdsManager.gd"
+ClickPlayer="*res://autoload/ClickPlayer.gd"
+UnityAds="*res://autoload/UnityAds.gd"
+GodotIapPlugin="*uid://bfjo323qxscvt"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/godot-iap/plugin.cfg")
+
+[input]
+
+ui_left={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":65,"physical_keycode":0,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
+]
+}
+ui_right={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":68,"physical_keycode":0,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
+]
+}
+ui_up={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":87,"physical_keycode":0,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
+]
+}
+ui_down={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":83,"physical_keycode":0,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
+]
+}
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+
+[rendering]
+
+textures/vram_compression/import_etc2_astc=true
+environment/defaults/default_clear_color=Color(0, 0, 0, 1)
+
+[unity_ads]
+
+auto_initialize=true
+test_mode=true
+ios/game_id="0000000"
+ios/placements/rewarded="Rewarded_iOS"

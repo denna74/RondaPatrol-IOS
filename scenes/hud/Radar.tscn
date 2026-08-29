@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dqaysj0lfhmp2"]
+
+[ext_resource type="Script" path="res://scenes/hud/Radar.gd" id="1_3pxw8"]
+
+[node name="Radar" type="Control"]
+script = ExtResource("1_3pxw8")

@@ -1,0 +1,154 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scenes/menu/SettingsPopup.gd" id="1_script"]
+
+[sub_resource type="StyleBoxFlat" id="panel_style"]
+bg_color = Color(0.15, 0.15, 0.15, 0.95)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+
+[sub_resource type="Gradient" id="grabber_grad"]
+offsets = PackedFloat32Array(0, 1)
+colors = PackedColorArray(1, 1, 1, 0, 1, 1, 1, 0)
+
+[node name="SettingsPopup" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_script")
+
+[node name="Dim" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.5)
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -255.0
+offset_top = -225.0
+offset_right = 255.0
+offset_bottom = 225.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("panel_style")
+
+[node name="Margin" type="MarginContainer" parent="Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_bottom = 20
+
+[node name="VBox" type="VBoxContainer" parent="Panel/Margin"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Title" type="Label" parent="Panel/Margin/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+horizontal_alignment = 1
+text = "Settings"
+
+[node name="LanguageRow" type="HBoxContainer" parent="Panel/Margin/VBox"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="LanguageLabel" type="Label" parent="Panel/Margin/VBox/LanguageRow"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 18
+text = "Language"
+
+[node name="LanguageButton" type="TextureButton" parent="Panel/Margin/VBox/LanguageRow"]
+custom_minimum_size = Vector2(157, 64)
+layout_mode = 2
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="BgmLabel" type="Label" parent="Panel/Margin/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "Background music"
+
+[node name="BgmRow" type="HBoxContainer" parent="Panel/Margin/VBox"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="BgmSlider" type="HSlider" parent="Panel/Margin/VBox/BgmRow"]
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+size_flags_horizontal = 3
+max_value = 4.0
+step = 1.0
+tick_count = 5
+ticks_on_borders = false
+
+[node name="BgmPct" type="Label" parent="Panel/Margin/VBox/BgmRow"]
+custom_minimum_size = Vector2(60, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "100%"
+
+[node name="SfxLabel" type="Label" parent="Panel/Margin/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "Sound effect"
+
+[node name="SfxRow" type="HBoxContainer" parent="Panel/Margin/VBox"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="SfxSlider" type="HSlider" parent="Panel/Margin/VBox/SfxRow"]
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+size_flags_horizontal = 3
+max_value = 4.0
+step = 1.0
+tick_count = 5
+ticks_on_borders = false
+
+[node name="SfxPct" type="Label" parent="Panel/Margin/VBox/SfxRow"]
+custom_minimum_size = Vector2(60, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "100%"
+
+[node name="Spacer" type="Control" parent="Panel/Margin/VBox"]
+custom_minimum_size = Vector2(0, 20)
+layout_mode = 2
+
+[node name="Buttons" type="HBoxContainer" parent="Panel/Margin/VBox"]
+layout_mode = 2
+alignment = 1
+theme_override_constants/separation = 46
+
+[node name="CancelButton" type="TextureButton" parent="Panel/Margin/VBox/Buttons"]
+custom_minimum_size = Vector2(157, 64)
+layout_mode = 2
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="SaveButton" type="TextureButton" parent="Panel/Margin/VBox/Buttons"]
+custom_minimum_size = Vector2(157, 64)
+layout_mode = 2
+ignore_texture_size = true
+stretch_mode = 5

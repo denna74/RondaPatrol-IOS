@@ -1,0 +1,226 @@
+[
+  {
+    "name": "pocong",
+    "level": 1,
+    "coins": 1,
+    "desc_id": "Sosok jenazah terbungkus kain kafan yang melompat karena ikatan tali pocongnya tidak dilepas saat dikubur. Wajahnya digambarkan rusak, menakutkan, dan sering muncul di area pemakaman untuk menakuti warga sekitar.",
+    "desc_en": "A corpse wrapped in burial shrouds that hops around because its tie was not removed during burial. Its face is depicted as damaged, terrifying, and it  often appears in graveyards to scare local residents."
+  },
+  {
+    "name": "kuntilanak",
+    "level": 10,
+    "coins": 1,
+    "desc_id": "Roh perempuan yang meninggal saat hamil. Ia dikenal dengan tawa melengking yang berubah dari rendah ke tinggi. Sosoknya digambarkan berambut panjang, berpakaian putih, dan sering berada di pohon besar.",
+    "desc_en": "The spirit of a woman who died during childbirth. She is known for her shrill laughter that shifts from low to high. She is depicted with long hair, white clothing, and is often found in large, old trees."
+  },
+  {
+    "name": "tuyul",
+    "level": 20,
+    "coins": 1,
+    "desc_id": "Makhluk kecil berkepala botak, mirip bayi atau anak-anak yang dipelihara manusia. Mereka bertugas mencuri uang atau perhiasan bagi majikannya dengan cara gaib. Sang pemilik biasanya harus memberikan tumbal.",
+    "desc_en": "Small, bald, child-like creatures kept by humans. They are tasked with stealing money or jewelry for their masters through supernatural means. Their owner usually has to provide a ritual offering to keep them."
+  },
+  {
+    "name": "genderuwo",
+    "level": 30,
+    "coins": 2,
+    "desc_id": "Makhluk bertubuh besar, kekar, dengan rambut lebat menutupi sekujur tubuhnya. Mereka menyukai tempat lembap dan sering dianggap sebagai penunggu pohon beringin tua. Konon, ia mampu mengubah wujud menjadi manusia.",
+    "desc_en": "A large, muscular creature covered in thick hair. They enjoy humid places and are often considered spirits that guard old banyan trees. It is said they can shapeshift into human form at will."
+  },
+  {
+    "name": "banaspati",
+    "level": 40,
+    "coins": 2,
+    "desc_id": "Hantu berbentuk bola api yang melayang-layang atau berpijar di udara. Ia dikenal sangat ganas dan sering menyerang orang yang sedang berada di hutan atau area sepi pada malam hari, membakar korbannya hingga tewas.",
+    "desc_en": "A ghost in the form of a floating, glowing ball of fire. It is known to be very ferocious and often attacks people in forests or deserted areas at night, burning its victims to death."
+  },
+  {
+    "name": "babi_ngepet",
+    "level": 50,
+    "coins": 2,
+    "desc_id": "Makhluk hasil pesugihan manusia yang berubah wujud menjadi babi hutan. Mereka mencuri harta dengan cara menggesekkan tubuhnya ke dinding rumah warga. Proses ini membutuhkan rekan yang berjaga di rumah.",
+    "desc_en": "A creature born from black magic rituals where a human transforms into a wild boar. They steal wealth by rubbing their bodies against house walls. This process usually requires a partner to guard their home."
+  },
+  {
+    "name": "buto_ijo",
+    "level": 60,
+    "coins": 3,
+    "desc_id": "Raksasa berkulit hijau yang memiliki kekuatan fisik luar biasa besar. Dalam mitologi, ia sering digambarkan sebagai sosok pemakan manusia yang menyeramkan, ganas, dan menjadi perwujudan ketakutan masyarakat akan raksasa.",
+    "desc_en": "A giant with green skin who possesses immense physical strength. In mythology, he is often depicted as a terrifying, ferocious man-eating figure, embodying society's deep-seated fear of giants."
+  },
+  {
+    "name": "jelangkung",
+    "level": 70,
+    "coins": 3,
+    "desc_id": "Permainan tradisional yang menggunakan boneka sebagai medium untuk memanggil roh. Jika berhasil, boneka tersebut akan bergerak sendiri untuk menjawab pertanyaan. Konon, entitas ini berasal dari arwah penasaran.",
+    "desc_en": "A traditional game using a doll as a medium to summon spirits. If successful, the doll will move on its own to answer questions. It is believed that this entity originates from a restless spirit."
+  },
+  {
+    "name": "glundung_pringis",
+    "level": 80,
+    "coins": 3,
+    "desc_id": "Hantu berupa kepala manusia tanpa tubuh yang menggelinding di tanah. Ia sering muncul di malam hari, membuat suara gemuruh saat bergulir, dan menakuti orang yang kebetulan melintas di jalanan yang sepi sendirian.",
+    "desc_en": "A ghost in the form of a human head without a body that rolls on the ground. It appears at night, making a rumbling sound as it rolls, terrifying people who happen to pass by deserted roads alone."
+  },
+  {
+    "name": "banaspati_geni",
+    "level": 90,
+    "coins": 4,
+    "desc_id": "Variasi dari Banaspati yang wujudnya berupa api murni. Ia sering dianggap sebagai makhluk yang sangat berbahaya dan bersifat merusak. Kehadirannya ditandai dengan munculnya bola api besar yang melesat cepat di langit.",
+    "desc_en": "A variation of the Banaspati in the form of pure fire. It is considered a very dangerous and destructive creature. Its presence is marked by a large ball of fire darting rapidly across the night sky."
+  },
+  {
+    "name": "buto_ireng",
+    "level": 100,
+    "coins": 4,
+    "desc_id": "Raksasa berukuran sangat besar dengan kulit berwarna hitam pekat. Berbeda dengan Buto Ijo, sosok ini sering dikaitkan dengan kekuatan gaib yang lebih mistis, gelap, dan sering menjaga tempat-tempat yang sangat keramat.",
+    "desc_en": "A massive giant with jet-black skin. Unlike the Buto Ijo, this figure is often associated with darker, more mystical occult powers and frequently guards places considered to be highly sacred."
+  },
+  {
+    "name": "cindaku",
+    "level": 110,
+    "coins": 4,
+    "desc_id": "Sosok manusia mistis dari Jambi yang memiliki kemampuan berubah wujud menjadi harimau. Ia dianggap sebagai penjaga hutan yang bijaksana, hanya muncul untuk melindungi keseimbangan alam dan menghukum orang jahat.",
+    "desc_en": "A mystical human figure from Jambi capable of shapeshifting into a tiger. Considered a wise guardian of the forest, it only appears to protect the balance of nature and to punish those who commit evil deeds."
+  },
+  {
+    "name": "hantu_jeruk_purut",
+    "level": 120,
+    "coins": 5,
+    "desc_id": "Legenda urban dari pemakaman Jeruk Purut, Jakarta. Sosoknya berupa pastor tanpa kepala yang membawa kepalanya sendiri di tangan. Ia muncul dengan suara lonceng dan aroma busuk yang sangat menyengat sekali.",
+    "desc_en": "An urban legend from the Jeruk Purut cemetery in Jakarta. It appears as a headless priest carrying his own head. It manifests with the sound of a bell and an overwhelmingly foul, pungent odor."
+  },
+  {
+    "name": "antu_banyu",
+    "level": 130,
+    "coins": 5,
+    "desc_id": "Makhluk penunggu air, seperti sungai atau danau, yang sering mencelakakan manusia. Ia digambarkan memiliki rambut panjang dan sosok yang bisa muncul tiba-tiba dari kedalaman air untuk menyeret korbannya tenggelam.",
+    "desc_en": "A water-dwelling spirit, such as in rivers or lakes, that often harms humans. It is described as having long hair and can emerge suddenly from the deep water to drag its victims down to drown."
+  },
+  {
+    "name": "banaspati_raja",
+    "level": 140,
+    "coins": 5,
+    "desc_id": "Jenis Banaspati yang dianggap paling kuat dan berkuasa. Ia sering menampakkan diri dengan wujud api yang jauh lebih besar dan intens. Kehadirannya dianggap sebagai pertanda bahaya besar bagi lingkungan sekitar.",
+    "desc_en": "The most powerful and dominant type of Banaspati. It often reveals itself as a much larger and more intense fire. Its presence is considered a sign of grave danger to the surrounding area."
+  },
+  {
+    "name": "begu_ganjang",
+    "level": 150,
+    "coins": 6,
+    "desc_id": "Makhluk dari tanah Batak yang memiliki tubuh sangat tinggi dan kurus. Ia dipelihara manusia untuk mencelakai musuh atau mencuri harta. Begu Ganjang sangat ditakuti karena bisa menyebabkan kematian yang misterius.",
+    "desc_en": "A creature from the Batak region that has an incredibly tall and thin body. It is kept by humans to harm enemies or steal wealth. It is feared because it can cause mysterious deaths."
+  },
+  {
+    "name": "leak_putih",
+    "level": 160,
+    "coins": 6,
+    "desc_id": "Salah satu bentuk ilmu hitam dari Bali. Leak Putih dianggap lebih \"baik\" dibandingkan Leak lainnya karena sering digunakan untuk tujuan perlindungan diri atau pengobatan gaib oleh praktisi ilmu kebatinan kuno.",
+    "desc_en": "A form of Balinese black magic. Leak Putih is considered \"better\" than other Leaks as it is often used for self-protection or supernatural healing by ancient occult practitioners."
+  },
+  {
+    "name": "kuyang",
+    "level": 170,
+    "coins": 6,
+    "desc_id": "Sosok kepala manusia dengan organ dalam yang menggantung tanpa tubuh. Makhluk ini aktif pada malam hari, terbang mencari darah wanita hamil atau bayi yang baru lahir sebagai makanannya untuk menjaga kekuatan gaib.",
+    "desc_en": "A human head with hanging internal organs and no body. This creature is active at night, flying to hunt for the blood of pregnant women or newborns, which it consumes to maintain its dark powers."
+  },
+  {
+    "name": "homang",
+    "level": 180,
+    "coins": 7,
+    "desc_id": "Makhluk raksasa berambut lebat yang tinggal di pedalaman hutan Sumatera. Ia sering menyesatkan pendaki atau pencari kayu di hutan dengan menirukan suara orang yang dikenal, lalu membawa korbannya jauh masuk ke dalam.",
+    "desc_en": "A giant, hairy creature living deep in the Sumatran forests. It often misleads hikers or woodcutters by mimicking the voices of people they know, then lures them deep into the wilderness."
+  },
+  {
+    "name": "leak_kuning",
+    "level": 190,
+    "coins": 7,
+    "desc_id": "Wujud ilmu hitam yang berada di tengah-tengah tingkat kekuatan Leak. Ia memiliki kemampuan sihir yang bervariasi, sering dianggap sebagai perantara antara pengaruh baik dan jahat dalam praktik magis tradisional Bali.",
+    "desc_en": "A form of black magic at the intermediate level of power. It possesses various magical abilities and is often seen as a bridge between good and evil influences in traditional Balinese magical practices."
+  },
+  {
+    "name": "jenglot",
+    "level": 200,
+    "coins": 7,
+    "desc_id": "Makhluk kecil berambut panjang dan berkuku tajam, mirip boneka hidup. Konon, ia berasal dari jenazah orang yang memiliki ilmu hitam tapi tidak diterima bumi. Jenglot sering diberikan tetesan darah untuk kekuatannya.",
+    "desc_en": "A small, doll-like creature with long hair and sharp claws. It is believed to come from the corpse of a person who practiced black magic but was rejected by the earth. It is often fed drops of blood."
+  },
+  {
+    "name": "kuntilanak_merah",
+    "level": 210,
+    "coins": 7,
+    "desc_id": "Versi lebih ganas dari Kuntilanak yang sering dikaitkan dengan kematian yang penuh dendam atau kekerasan. Kehadirannya sering dianggap membawa ancaman fisik yang lebih nyata daripada sekadar penampakan biasa.",
+    "desc_en": "A more ferocious version of the Kuntilanak, often associated with deaths full of vengeance or violence. Its presence is considered to pose a more tangible physical threat than mere sightings."
+  },
+  {
+    "name": "pelesit",
+    "level": 220,
+    "coins": 8,
+    "desc_id": "Roh jahat yang menyerupai belalang, sering digunakan untuk menyerang orang secara gaib. Pemiliknya biasanya wanita yang menyimpan makhluk ini di dalam botol untuk menyakiti orang lain yang tidak mereka sukai secara diam.",
+    "desc_en": "An evil spirit resembling a grasshopper, often used to attack people supernaturally. Its owner is typically a woman who keeps the creature in a bottle to secretly harm those she dislikes."
+  },
+  {
+    "name": "wewe_gombel",
+    "level": 230,
+    "coins": 8,
+    "desc_id": "Sosok wanita tua dengan payudara sangat panjang. Ia dikenal sering menculik anak-anak yang ditelantarkan orang tuanya. Ia tidak berniat menyakiti, melainkan merawat anak tersebut di tempat persembunyiannya.",
+    "desc_en": "An elderly woman with very long breasts. She is known for kidnapping children who are neglected by their parents. She does not intend to harm them, but instead cares for them in her hideout."
+  },
+  {
+    "name": "leak_ireng",
+    "level": 240,
+    "coins": 8,
+    "desc_id": "Bentuk Leak yang paling ditakuti karena menggunakan ilmu hitam tingkat tinggi untuk tujuan jahat. Ia mampu berubah wujud menjadi berbagai makhluk menyeramkan untuk meneror atau mencelakai orang lain secara fisik.",
+    "desc_en": "The most feared form of Leak, using high-level black magic for evil purposes. It can shapeshift into various terrifying creatures to terrorize or physically harm others."
+  },
+  {
+    "name": "sigulambai",
+    "level": 250,
+    "coins": 8,
+    "desc_id": "Makhluk dari cerita rakyat Sumatera Utara yang berbau sangat busuk, seperti bangkai yang terbakar. Ia muncul dengan membawa hawa panas yang menyengat, membuat orang yang mencium baunya merasa sakit atau pingsan.",
+    "desc_en": "A creature from North Sumatran folklore that emits a very foul smell, like burning carrion. It appears accompanied by a scorching heat that makes those who smell it feel ill or faint."
+  },
+  {
+    "name": "lampor",
+    "level": 260,
+    "coins": 8,
+    "desc_id": "Pasukan gaib yang datang bersama angin kencang dan badai di malam hari. Suara keranda mayat sering terdengar saat Lampor lewat. Konon, siapapun yang bertemu dengannya bisa hilang secara misterius dibawa pergi jauh.",
+    "desc_en": "A ghostly legion that arrives with strong winds and storms at night. The sound of a funeral bier is often heard when Lampor passes. Anyone who encounters it may vanish mysteriously."
+  },
+  {
+    "name": "sundel_bolong",
+    "level": 270,
+    "coins": 8,
+    "desc_id": "Roh wanita yang punggungnya berlubang hingga menampakkan organ dalam. Ia menjadi hantu karena kematian tragis. Sundel Bolong sering menutupi punggungnya dengan rambut panjang agar tidak diketahui manusia lain.",
+    "desc_en": "A female spirit with a hole in her back that exposes her internal organs. She becomes a ghost due to a tragic death. She often covers her back with long hair to hide it from others."
+  },
+  {
+    "name": "suster_ngesot",
+    "level": 280,
+    "coins": 9,
+    "desc_id": "Legenda rumah sakit berupa sosok suster yang berjalan dengan cara mengesot karena kakinya hancur atau putus. Suara gesekan kain dan kaki di lantai rumah sakit sering menjadi pertanda kehadirannya yang dingin.",
+    "desc_en": "A hospital urban legend of a nurse who crawls because her legs were shattered or severed. The sound of her clothes and legs dragging on the hospital floor is often a sign of her cold presence."
+  },
+  {
+    "name": "rangda",
+    "level": 290,
+    "coins": 9,
+    "desc_id": "Ratu para Leak dalam mitologi Bali. Ia digambarkan sebagai sosok raksasa wanita dengan lidah panjang dan taring tajam. Rangda melambangkan kekuatan jahat yang harus diseimbangkan oleh Barong sebagai simbol kebaikan.",
+    "desc_en": "The Queen of the Leaks in Balinese mythology. She is depicted as a giant woman with a long tongue and sharp fangs. She represents the evil power that must be balanced by the Barong as a symbol of good."
+  },
+  {
+    "name": "si_manis_jembatan_ancol",
+    "level": 300,
+    "coins": 9,
+    "desc_id": "Legenda urban dari Jakarta mengenai seorang gadis cantik yang tewas di sekitar Jembatan Ancol. Sosoknya sering menampakkan diri sebagai wanita cantik yang menggoda pria atau menumpang kendaraan di malam hari.",
+    "desc_en": "A Jakarta urban legend about a beautiful girl who died near the Ancol Bridge. She often appears as a beautiful woman who seduces men or hitches rides on vehicles at night."
+  },
+  {
+    "name": "nyi_roro_kidul",
+    "level": 310,
+    "coins": 10,
+    "desc_id": "Ratu penguasa Laut Selatan yang sangat dihormati. Ia digambarkan sebagai wanita cantik dengan pakaian berwarna hijau. Konon, ia memiliki kekuatan untuk mengendalikan ombak besar dan sering menjaga tanah Jawa.",
+    "desc_en": "The Queen of the South Sea, who is highly revered. She is depicted as a beautiful woman dressed in green. It is said she has the power to control waves and guards the land of Java."
+  }
+]

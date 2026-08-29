@@ -1,0 +1,73 @@
+[gd_scene format=3 uid="uid://bw0lsvffbg26k"]
+
+[ext_resource type="Script" uid="uid://bcdh8wido3f1l" path="res://scenes/menu/LevelTrack.gd" id="1_bf6or"]
+[ext_resource type="Texture2D" uid="uid://3h5t7s63ruly" path="res://assets/ronda_patrol_warung_open_bg.png" id="3_warung_bg"]
+[ext_resource type="Texture2D" uid="uid://eppvk53cur4o" path="res://assets/labels/empty_small_long.png" id="5_empty_small"]
+
+[node name="LevelTrack" type="Control" unique_id=1014220084]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_bf6or")
+
+[node name="Bg" type="TextureRect" parent="." unique_id=563678090]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_warung_bg")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="StatusPanel" type="TextureRect" parent="." unique_id=1008995448]
+layout_mode = 1
+offset_left = 30.0
+offset_top = 16.0
+offset_right = 356.0
+offset_bottom = 76.0
+texture = ExtResource("5_empty_small")
+expand_mode = 2
+
+
+[node name="ShopPanel" type="Panel" parent="." unique_id=2021702218]
+layout_mode = 1
+offset_left = 1.0
+offset_top = 173.0
+offset_right = 384.0
+offset_bottom = 717.0
+
+[node name="GridContainer" type="GridContainer" parent="ShopPanel" unique_id=942040020]
+layout_mode = 1
+offset_left = 61.0
+offset_top = 112.0
+offset_right = 341.0
+offset_bottom = 392.0
+columns = 2
+
+[node name="MainMenuButton" type="TextureButton" parent="ShopPanel" unique_id=814824913]
+custom_minimum_size = Vector2(250, 64)
+layout_mode = 1
+offset_left = 1007.0
+offset_top = -151.0
+offset_right = 1257.0
+offset_bottom = -87.0
+ignore_texture_size = true
+
+[node name="LevelScroll" type="ScrollContainer" parent="." unique_id=375614691]
+layout_mode = 1
+offset_left = 417.0
+offset_top = 127.0
+offset_right = 1266.0
+offset_bottom = 706.0
+clip_contents = true
+scroll_deadzone = 15
+
+[node name="LevelContainer" type="VBoxContainer" parent="LevelScroll" unique_id=1367785941]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 0

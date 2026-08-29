@@ -1,0 +1,23 @@
+# Godot editor & cache
+.godot/
+
+# Import & UID cache
+*.import
+*.uid
+
+# Build output
+build/
+export_presets.cfg
+
+# Android build artifacts
+android/.gradle/
+android/build/
+android/local.properties
+android/.build_version
+android/libs/
+
+# Opencode superpowers
+.superpowers/
+
+# Help script
+tools/

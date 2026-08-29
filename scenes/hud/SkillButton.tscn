@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://c38uy0glqchac"]
+
+[ext_resource type="Script" uid="uid://bdbbx1hyrn162" path="res://scenes/hud/SkillButton.gd" id="1_nrg48"]
+
+[node name="SkillButton" type="TouchScreenButton" unique_id=1927264974]
+script = ExtResource("1_nrg48")
+
+[node name="AmountLabel" type="Label" parent="." unique_id=546450430]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 32.0
+offset_bottom = 20.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 3
+theme_override_font_sizes/font_size = 16
