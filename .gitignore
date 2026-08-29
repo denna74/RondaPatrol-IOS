@@ -7,7 +7,6 @@
 
 # Build output
 build/
-export_presets.cfg
 
 # Android build artifacts
 android/.gradle/
