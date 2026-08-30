@@ -80,5 +80,5 @@ environment/defaults/default_clear_color=Color(0, 0, 0, 1)
 
 auto_initialize=true
 test_mode=true
-ios/game_id="0000000"
+ios/game_id="800364543"
 ios/placements/rewarded="Rewarded_iOS"
