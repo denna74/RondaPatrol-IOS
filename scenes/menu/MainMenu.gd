@@ -93,7 +93,7 @@ func _request_app_exit() -> void:
 	if tree == null:
 		return
 	if tree.root != null:
-		tree.root.propagate_notification(SceneTree.NOTIFICATION_WM_CLOSE_REQUEST)
+		tree.root.propagate_notification(NOTIFICATION_WM_CLOSE_REQUEST)
 	tree.quit()
 
 func _on_settings_pressed() -> void:
