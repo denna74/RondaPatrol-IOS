@@ -30,22 +30,22 @@ jobs:
           path: |
             ~/Library/Application Support/Godot/
             ~/.local/bin/godot
-          key: ${{ runner.os }}-godot-v4.6
+          key: ${{ runner.os }}-godot-v4.7
 
       - name: Setup Godot Engine
         if: steps.cache-godot.outputs.cache-hit != 'true'
         run: |
           mkdir -p "$HOME/.local/bin"
-          curl -LO https://github.com/godotengine/godot/releases/download/4.6-stable/Godot_v4.6-stable_macos.universal.zip
-          unzip -q Godot_v4.6-stable_macos.universal.zip
+          curl -LO https://github.com/godotengine/godot/releases/download/4.7-stable/Godot_v4.7-stable_macos.universal.zip
+          unzip -q Godot_v4.7-stable_macos.universal.zip
           cp -R "Godot.app" "/Applications/Godot.app"
           ln -sf "/Applications/Godot.app/Contents/MacOS/Godot" "$HOME/.local/bin/godot"
           echo "$HOME/.local/bin" >> "$GITHUB_PATH"
-          mkdir -p "$HOME/Library/Application Support/Godot/export_templates/4.6.stable"
-          curl -LO https://github.com/godotengine/godot/releases/download/4.6-stable/Godot_v4.6-stable_export_templates.tpz
-          unzip -q Godot_v4.6-stable_export_templates.tpz -d /tmp/templates
-          cp -R /tmp/templates/templates/* "$HOME/Library/Application Support/Godot/export_templates/4.6.stable/"
-          rm -rf /tmp/templates Godot_v4.6-stable_export_templates.tpz Godot_v4.6-stable_macos.universal.zip
+          mkdir -p "$HOME/Library/Application Support/Godot/export_templates/4.7.stable"
+          curl -LO https://github.com/godotengine/godot/releases/download/4.7-stable/Godot_v4.7-stable_export_templates.tpz
+          unzip -q Godot_v4.7-stable_export_templates.tpz -d /tmp/templates
+          cp -R /tmp/templates/templates/* "$HOME/Library/Application Support/Godot/export_templates/4.7.stable/"
+          rm -rf /tmp/templates Godot_v4.7-stable_export_templates.tpz Godot_v4.7-stable_macos.universal.zip
 
       - name: Import Code Signing Certificate
         env:

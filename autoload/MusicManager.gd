@@ -15,9 +15,10 @@ func _ready() -> void:
 	_apply_bgm_level()
 	_menu_music = load("res://assets/bgm/Staccato_Specter.mp3")
 	_gameplay_music = load("res://assets/bgm/Bamboo_Mischief.mp3")
+	_menu_music.loop = true
+	_gameplay_music.loop = true
 	_player = AudioStreamPlayer.new()
 	_player.bus = &"Music"
-	_player.finished.connect(_restart_player)
 	_player.process_mode = PROCESS_MODE_WHEN_PAUSED
 	add_child(_player)
 
@@ -29,11 +30,6 @@ func _apply_bgm_level() -> void:
 	AudioServer.set_bus_mute(idx, bgm_level <= 0)
 	AudioServer.set_bus_volume_db(idx, linear_to_db(float(bgm_level) / float(MAX_LEVEL)))
 
-
-func _restart_player() -> void:
-	if bgm_level <= 0:
-		return
-	_player.play()
 
 func load_bgm_setting() -> void:
 	var config = ConfigFile.new()

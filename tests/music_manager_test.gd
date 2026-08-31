@@ -12,6 +12,7 @@ func _ready() -> void:
 	await _test_clamps()
 	await _test_legacy_migration()
 	await _test_player_gating()
+	await _test_bgm_loops()
 	await _test_language_save_preserves_bgm()
 	_set_level(original)
 	MusicManager.set_bgm_level(original)
@@ -83,6 +84,13 @@ func _test_player_gating() -> void:
 	MusicManager.set_bgm_level(4)
 	_check(MusicManager._player.playing, "player resumes above level 0")
 	MusicManager.stop_music()
+
+
+func _test_bgm_loops() -> void:
+	if MusicManager._menu_music:
+		_check(MusicManager._menu_music.loop, "menu BGM stream loops")
+	if MusicManager._gameplay_music:
+		_check(MusicManager._gameplay_music.loop, "gameplay BGM stream loops")
 
 
 func _test_language_save_preserves_bgm() -> void:

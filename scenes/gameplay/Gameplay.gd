@@ -32,6 +32,7 @@ var _sfx_caught: AudioStreamPlayer
 var _sfx_sonar: AudioStreamPlayer
 var _skills_used: int = 0
 var _state: State = State.BUILD_MAP
+var _pending_quit_penalty := false
 
 const PesugihanCoin := preload("res://scenes/gameplay/PesugihanCoin.gd")
 const JimpitanCoin := preload("res://scenes/gameplay/JimpitanCoin.gd")
@@ -247,6 +248,13 @@ func _state_enter_playing() -> void:
 
 
 func _notification(what: int) -> void:
+	if what == NOTIFICATION_APPLICATION_PAUSED:
+		if _state == State.PLAYING and not is_level_complete:
+			_pending_quit_penalty = true
+	if what == NOTIFICATION_APPLICATION_RESUMED:
+		if _pending_quit_penalty:
+			_pending_quit_penalty = false
+			SaveManager.lose_life()
 	if what == NOTIFICATION_WM_CLOSE_REQUEST and not is_level_complete:
 		SaveManager.lose_life()
 	if what == NOTIFICATION_WM_GO_BACK_REQUEST:

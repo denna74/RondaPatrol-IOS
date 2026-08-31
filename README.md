@@ -1,6 +1,6 @@
 # Ronda Patrol iOS
 
-iOS port of Ronda Patrol, built with Godot 4.6.
+iOS port of Ronda Patrol, built with Godot 4.7.
 
 ## iOS configuration
 
@@ -18,7 +18,7 @@ The App Store Connect consumable products are:
 
 ## Local export
 
-Install Godot 4.6 with the iOS export templates, then run the export from the
+Install Godot 4.7 with the iOS export templates, then run the export from the
 project root so that `project.godot` and `export_presets.cfg` are both available
 to Godot. The command is:
 
