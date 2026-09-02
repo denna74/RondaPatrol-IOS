@@ -79,6 +79,6 @@ environment/defaults/default_clear_color=Color(0, 0, 0, 1)
 [unity_ads]
 
 auto_initialize=true
-test_mode=true
+test_mode=false
 ios/game_id="800364543"
 ios/placements/rewarded="Rewarded_iOS"
